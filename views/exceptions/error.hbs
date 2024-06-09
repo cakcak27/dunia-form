@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>nestjs</title>
+    {{!-- <link
+      href='https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css'
+      rel='stylesheet'
+    /> --}}
+    <script src='https://cdn.tailwindcss.com'></script>
+    <script>
+      tailwind.config = { darkMode: 'class', colors: { transparent:
+      'transparent', current: 'currentColor', white: '#ffffff', purple:
+      '#3f3cbb', midnight: '#121063', metal: '#565584', tahiti: '#3ab7bf',
+      silver: '#ecebff', 'bubble-gum': '#ff77e9', bermuda: '#78dcca', }, };
+    </script>
+
+  </head>
+  <body
+    class='flex flex-column justify-center items-center dark:bg-purple-500 bg-bermuda text-white w-screen h-screen'
+  >
+    <div>
+      {{statusCode}}
+      {{message}}
+    </div>
+    <script
+      src='https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js'
+    ></script>
+  </body>
+</html>
